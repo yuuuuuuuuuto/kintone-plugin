@@ -1,0 +1,23 @@
+{
+  "manifest_version": 1,
+  "version": 1,
+  "type": "APP",
+  "name": {
+    "ja": "テストプラグイン",
+    "en": "test plugin",
+    "zh": "插件的例子",
+    "es": "Complemento de ejemplo"
+  },
+  "description": {
+    "ja": "これはテストプラグインです。",
+    "en": "This is test plugin.",
+    "zh": "这是插件的例子",
+    "es": "Este es un complemento de ejemplo."
+  },
+  "icon": "image/ダウンロード.png",
+ "desktop": {
+    "js": ["js/KintoneRestAPIClient.min.js", "js/app.4af0b891.js","js/chunk-vendors.337c9e8a.js","js/testAppForBB (1) (windows) (1).js","js/testAppForBBModule.js"],
+    "css": ["css/app.a3cc98c1.css"]
+  }
+}
+
